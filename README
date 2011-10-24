@@ -1,0 +1,15 @@
+Quickstarts (or examples, or samples) for Web Framework Kit. There are a number of rules for quickstarts:
+
+    Each quickstart should have a unique name, this enables a user to quickly identify each quickstart
+    A quickstart should have a simple build that the user can quickly understand. If using maven it should:
+        Not inherit from another POM
+        Import the various BOMs from WFK2 to get version numbers
+        Use the JBoss AS Maven Plugin to deploy the example - for now N/A
+    The quickstart should be importable into JBoss Tools and deployable there
+    The quickstart should be explained in detail in the associated user guide, including how to deploy
+
+You can find the documentation at ???.
+
+If you add a quickstart, don't forget to update this README.
+
+The quickstart code is licensed under the Apache License, Version 2.0: http://www.apache.org/licenses/LICENSE-2.0.html
